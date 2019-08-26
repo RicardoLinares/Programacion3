@@ -1,0 +1,2 @@
+dentro de la carpeta del servidor de apache
+y con el server activado
