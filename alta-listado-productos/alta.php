@@ -25,7 +25,7 @@
 			<form id="FormIngreso" method="post" enctype="multipart/form-data" action="administracion.php" >
 				<input type="text" name="codBarra" placeholder="Ingrese c&oacute;digo de barras"  />
 				<input type="text" name="nombre" placeholder="Ingrese nombre"  />
-
+			 	<input type="file" name="archivo" id="archivo" />
 				<input type="submit" class="MiBotonUTN" name="guardar" />
 			</form>
 		
