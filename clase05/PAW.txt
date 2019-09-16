@@ -1,0 +1,24 @@
+USUARIO:
+
+INSERT INTO `usuarios`( `nombre`, `apellido`, `clave`, `perfil`, `estado`) VALUES ('Ricardo','Linares','alumno',1,1)
+
+UPDATE `usuarios` SET `nombre`='Ricardo_modded',`apellido`='Linares_modded',`clave`= 'calve3' '4',`perfil`= 1,`estado`= 0 WHERE`id`= 1
+
+SELECT `id`, `nombre`, `apellido`, `clave`, `perfil`, `estado` FROM `usuarios` WHERE `id`= 1
+SELECT `id`, `nombre`, `apellido`, `clave`, `perfil`, `estado` FROM `usuarios` WHERE `estado`= 0
+SELECT `id`, `nombre`, `apellido`, `clave`, `perfil`, `estado` FROM `usuarios` WHERE 1
+
+DELETE FROM `usuarios` WHERE `id` = 1
+
+
+Producto:
+
+INSERT INTO `productos`(`codigo_barra`, `nombre`, `path_foto`) VALUES ('420-13227','Trinidad',null)
+
+UPDATE `productos` SET `codigo_barra`="91554-7183",`nombre`="Pizza",`path_foto`='algo.png' WHERE `id`= 1
+
+SELECT `id`, `codigo_barra`, `nombre`, `path_foto` FROM `productos` WHERE `id`= 1
+SELECT `id`, `codigo_barra`, `nombre`, `path_foto` FROM `productos` WHERE 1
+
+
+DELETE FROM `productos`WHERE `id` = 1
